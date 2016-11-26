@@ -1,1 +1,32 @@
-%h1 This is the welcome placeholder
+#banner
+  .banner_content
+    %h1 Noten
+    %p Your online notebooks. Never forget an idea agian
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The worest notebook application."
+    %p.name - Erfan
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos labore consequatur explicabo, necessitatibus tenetur, impedit eum pariatur natus sequi vel soluta quisquam, quia similique commodi rerum suscipit corporis laboriosam ratione.
+      .callout
+        %h2 Rocket
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos labore consequatur explicabo, necessitatibus tenetur, impedit eum pariatur natus sequi vel soluta quisquam, quia similique commodi rerum suscipit corporis laboriosam ratione.
+      .callout
+        %h2 Lightning
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos labore consequatur explicabo, necessitatibus tenetur, impedit eum pariatur natus sequi vel soluta quisquam, quia similique commodi rerum suscipit corporis laboriosam ratione.
+
+#bottom_cta
+  .wrapper
+    %h2 Let's play a game!
+    %p You should sign up in 50s or you will get killed!
+    %button= link_to "SIGN ME UP!!!", new_user_registration_path
+
+%footer
+  %p &copy; EB
